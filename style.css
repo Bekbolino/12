@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+
+
+.name {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.73px;
+}
+
+.header-link {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.36px;
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+}
+
+.header-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Section-1 */
+
+.section-1 {
+    padding: 80px 0 110px;
+}
+
+.s1-title {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48.41px;
+    letter-spacing: 0%;
+    
+}
+
+.s1-p{
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26.63px;
+    letter-spacing: 0%;
+    margin: 30px 0 80px;
+}
+
+.s1-btn {
+    background-color: #E50185;
+    color: white;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0%;
+    padding: 13px 33px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0px #00000059;
+    border: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.s1-text {
+    width: 50%;
+}
+
+/* Section-2 */
+
+.section-2 {
+    background-color: #100363;
+    color: white;
+    padding: 120px 0;
+}
+
+.s2-info {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.s2-p{
+    margin-left: 25px;
+}
+
+.s2-row {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 36%);
+    
+    gap: 42px;
+    justify-content: space-between;
+}
+
+.s4-row{
+    display: flex;
+    gap: 24px;
+    border-bottom: 1px dashed white;
+    padding-bottom: 30px;
+
+}
+
+.s4-text h4 {
+    margin-bottom: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31.47px;
+    letter-spacing: 0%;
+    
+}
+
+.s4-num {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #E50185;
+    border-radius: 100%;
+    padding: 10px 17px;
+}
+
+.section-4 {
+    background-color: #100363;
+    color: white;
+    padding: 130px 0;
+}
+
+.s4-title {
+    margin-bottom: 70px;
+}
